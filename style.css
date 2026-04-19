@@ -21,8 +21,8 @@ body {
 nav {
   position:relative;
   width: 98%;
-  height: 50px;
-  background-color: #6F4F28;
+  height: 90px;
+  background-image: url("border wood.png");
   border-radius: 10px;
   border-color: #e8cca9;
   border-width: 2px;
@@ -30,27 +30,27 @@ nav {
   display: flex;
   justify-content: end;
   align-items: top
-}
+  }
 
 nav button {
   background-color: transparent;
   border: none;
   color: #e8cca9;
-  font-size: 20px;
+  font-size: 35px;
   cursor: pointer;
-  margin: 0 15px;
-  padding: 10px 20px;
+  margin: 0 3px;
+  padding: 10px 10px;
 }
 
 nav span {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 15px;
   transition: 5s ease-in;
 }
 
 nav button:hover{
-  width: 95px;
+  width: 115px;
   height:100%;
   background-color: #008F39;
   border-radius: 10px;
@@ -62,6 +62,14 @@ nav button:hover{
 nav h1{
   position: absolute;
   left: 15px;
-  top: 5px;
+  top: 10px;
   color: #e8cca9;
+  font-size: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  position: absolute;
 }
