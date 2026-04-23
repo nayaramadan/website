@@ -1,0 +1,70 @@
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat Brush", cursive; 
+}
+
+.body {
+  display: flex;
+  align-items: flex-start;
+  background-color: #7FB5B5;;
+}
+
+.nav {
+  width: 99%;
+  height: 100px;
+  background-color: #6F4F28;
+  background-image: url("images/border wood.png");
+  border-radius: 10px;
+  border-color: #e8cca9;
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  justify-content: end;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  color: #e8cca9;
+  font-size: 45px;
+  cursor: pointer;
+  margin: 0 3px;
+  padding: 0.001% 4%;
+}
+
+
+nav button:hover {
+  background-color: #008F39;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: white;
+  cursor: pointer;
+}
+
+nav h1 {
+  left: 15px;
+  top: 10px;
+  color: #e8cca9;
+  font-size: 70px;
+}
+
+.trees {
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 10px;
+}
+
+.pond {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  bottom: 0px;
+}
